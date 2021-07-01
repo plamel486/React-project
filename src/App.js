@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Hi from './component/Hi';
 
 function App() {
+  const name = "tom"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          안녕하세요!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{ color:"red", backgroundColor:"blue" }}>HELLO! {name}</h1>
+      <Hi></Hi>
+      <div></div>  
+          
+      <div className="box">여기는 app.js 영역입니다.</div>
     </div>
   );
 }

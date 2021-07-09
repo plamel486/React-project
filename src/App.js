@@ -1,6 +1,7 @@
 import './App.css';
 import React, {useState} from 'react';
 import Hi from './component/Hi';
+import Tour from './component/Tour';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 
@@ -14,6 +15,7 @@ function App() {
 
       <h1>안녕하세요! 오신 걸 환영 합니다.
       </h1>
+      <Tour></Tour>
 
       <Switch>
           <Route exact path="/">

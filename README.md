@@ -1,3 +1,8 @@
+# git start
+연습용으로 제작된 git 연습물입니다.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

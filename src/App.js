@@ -12,7 +12,8 @@ function App() {
 
     <div className="App">
 
-      <h1>안녕하세요! 오신 걸 환영 합니다.</h1>
+      <h1>안녕하세요! 오신 걸 환영 합니다.
+      </h1>
 
       <Switch>
           <Route exact path="/">

@@ -1,6 +1,6 @@
 import styles from "./Hi.module.css";
 
-export default function Hi(){
+export default function Header(){
     function gret(){
         alert("환영!");
     }

@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useState} from 'react';
-import Hi from './component/Hi';
+import Header from './component/Header';
 import Tour from './component/Tour';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import {Link} from 'react-router-dom';
@@ -13,15 +13,13 @@ function App() {
 
     <div className="App">
 
-      <h1>안녕하세요! 오신 걸 환영 합니다.
-      </h1>
+      <Header></Header>
       <Tour></Tour>
 
       <Switch>
           <Route exact path="/">
       <h1>HELLO! {name}</h1>
       <button onClick={()=>change(name==="tom"?"jane":"tom")}>변경이닷</button>
-      <Hi></Hi>
       <div></div>  
           
       <div className="box">여기는 app.js 영역입니다.</div>
